@@ -1,0 +1,15 @@
+#tabbrowser-arrowscrollbox-periphery {
+  display: none;
+}
+
+.tabbrowser-tab:first-child {
+  max-width: 100% !important;
+}
+
+.tabbrowser-tab:first-child .tab-close-button {
+  display: none !important;
+}
+.tabbrowser-tab:first-child .tab-background:is([selected]) {
+  background: transparent !important;
+  box-shadow: none !important;
+}
