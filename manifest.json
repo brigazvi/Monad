@@ -1,0 +1,17 @@
+{
+  "description": "One tab to rule them all",
+  "manifest_version": 3,
+  "name": "Monad",
+  "version": "0.1",
+  "homepage_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "background": { "scripts": ["background.js"] },
+  "permissions": ["tabs"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "monad@monadExtenstion.org"
+    }
+  }
+}
